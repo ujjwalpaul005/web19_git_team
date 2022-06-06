@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensPage</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            border: 1px solid transparent;
+            width: 80%;
+            height:auto;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            gap: 50px;
+            margin-top: 30px;
+        }
+        #container>div{
+            border: 1px solid transparent;
+        }
+        #container>div>img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        #container>div>h3+p{
+            color: rgb(48, 46, 46);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            font-size: 22px;
+        }
+        #container h1{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        #container h3{
+            margin-left: 10px;
+            font-size: 24px;
+            color: #6b6b6b;
+        }
+        .green{
+            color: #0dac62;
+        }
+        .small{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJQpNTPlPZPXzSBpQEuHNU2-5BFBjmFZXpxq4OkkgjuStHnY04hny-P0uvjMfbcu4xZNk&usqp=CAU" alt="Error">
+            <h1>Pause</h1>
+            <h3>Men Cotton Long Sleeves Shrug</h3>
+            <p>Rs 359 <span><s class="small">4499</s></span> <span class="green">-76%</span> </p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJQpNTPlPZPXzSBpQEuHNU2-5BFBjmFZXpxq4OkkgjuStHnY04hny-P0uvjMfbcu4xZNk&usqp=CAU" alt="Error">
+            <h1>JUBINATION</h1>
+            <h3>Men Wool Sleeveless Sweater Pack Of 1</h3>
+            <p>Rs 799 <span><s class="small">44499</s></span> <span class="green">-47%</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
