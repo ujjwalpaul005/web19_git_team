@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            /* border: 1px solid red; */
+            margin: auto;
+            width: 30%;
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(1,80%);
+            grid-template-rows: repeat(6,50px);
+            gap: 10px;
+            background-color: rgb(72,201,176);
+            justify-content: space-evenly;
+        }
+        /* #container> div{
+        border: 1px solid black;
+        } */
+
+        #container> div:nth-child(1){
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin-top: 10px;
+        
+        }
+        #container> div:nth-child(2){
+        background-color: white;
+        font-size: 20px;
+        color: grey;
+        padding: 10px 0px 0px 20px ;
+        }
+        #container> div:nth-child(3){
+        background-color: white;
+        font-size: 20px;
+        color: grey;
+        padding: 10px 0px 0px 20px ;
+        }
+        #container> div:nth-child(4){
+        background-color: white;
+        font-size: 20px;
+        color: grey;
+        padding: 10px 0px 0px 20px ;
+        }
+
+        #container> div:nth-child(5){
+        background-color: rgb(23,165,137);
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        }
+        #container> div:nth-child(6){
+        background-color: rgb(23,165,137);
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>-Visitor-</div>
+        <div>
+            Full Name
+        </div>
+        <div>
+            Email
+        </div>
+        <div>
+            Organization
+        </div>
+        <div>
+            Sign Up
+        </div>
+        <div>
+            Return
+        </div>
+        
+    </div>
+</body>
+</html>
